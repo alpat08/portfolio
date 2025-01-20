@@ -8,9 +8,9 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Alpat</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,10 +18,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Projects</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#project">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link ms-4" href="#contact">Sign In <i class="bi bi-box-arrow-in-right"></i></a>
           </div>
         </div>
       </div>
@@ -134,7 +135,7 @@
     </section>
 
     <!-- contact -->
-     <section class="contact" id="contact">
+     <section class="contact pb-5" id="contact">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -163,11 +164,11 @@
      </section>
 
     <!-- Footer -->
-     <footer class="bg-primary pb-5 text-center text-white">
+     <footer class="bg-primary pb-5 text-center text-white pt-5">
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <p>2021 All Right Reserved by Alpat</p>
+            <p class="p-3">2025 All Right Reserved by Alpat</p>
           </div>
         </div>
       </div>
